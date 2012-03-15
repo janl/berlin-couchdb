@@ -1,0 +1,228 @@
+/* 480
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+
+body {
+  font-size: 100%;
+}
+
+/* 2.HEADINGS */
+/* 3.TYPOGRAPHY */
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+
+.ug-info {
+  width: 90%;
+  margin: 0 auto 10px auto;
+  text-align: center;
+}
+
+/* 9.NAVIGATION */
+/* 10.CONTENT */
+
+/* --- Speakers --- */
+
+.speaker-list {
+  width: 100%;
+  display:block;
+  text-align: left;
+  float: none;
+}
+
+.speaker-list p {
+  font-size: 14px;
+}
+
+.speaker-list li {
+  margin: 15px 15px 0 15px;
+  padding: 10px;
+  background: #fff;
+}
+
+.right li {
+  margin-right: 15px;
+}
+
+.speaker-info {
+  width: 30%;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  float: left;
+}
+
+.speaker-list img {
+  width: 100%;
+  float: left;
+  margin: 0 10px 10px 0 ;
+}
+
+.talk {
+  width: 60%;
+  float: left;
+}
+
+.twitter,
+.web,
+.git {
+  padding: 3px 8px;
+  margin: 0 5px 5px 0;
+  background: #e9e9e9;
+  border-radius: 10px;
+  display: inline;
+  font-size: 12px;
+  float: left;
+}
+
+.twitter:hover,
+.web:hover,
+.git:hover {
+  box-shadow: 1px 1px 3px #666;
+  text-decoration: none;
+}
+
+/* --- END Speakers --- */
+
+.speaker {
+  padding: 10px;
+  border: 5px solid #fff;
+  background: #e1e1e1;
+}
+
+.empty {
+  border: 5px dashed rgba(255,255,255,0.7);
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.empty h3, .empty h5 {
+  color: #888;
+}
+
+.teaser a.button {
+  position: absolute;
+  width: 30%;
+  top: 70%;
+  left: 50%;
+  border-radius: 5px;
+  font-size: 0.8em;
+  padding: 2px 5px;
+}
+
+.sponsor-link {
+  width: 160px;
+  height: 160px;
+  display: block;
+  background: url(../img/cfs.png) no-repeat 0 0;
+  color: transparent;
+}
+
+.sponsor-link:hover {
+  background: url(../img/cfs.png) no-repeat 0 -160px;
+  color: transparent;
+}
+
+.attendees ul {
+  margin: 0 auto;
+  display: block;
+  list-style: none;
+  font-size: 0.75em;
+}
+
+.attendees ul li {
+  float: left;
+}
+
+.attendees li a {
+  height: 48px;
+  width: 48px;
+  display: block;
+  background: #e1e1e1;
+  margin: 5px 5px 0 0;
+  padding: 3px;
+  vertical-align: center;
+  text-decoration: none;
+}
+
+.attendees li a:hover {
+  color: #fff;
+  background: #CE1E47;
+}
+
+.attendees li a img {
+  width: 48px;
+  height: 48px;
+  display: inline;
+  overflow: hidden;
+  float: left;
+}
+
+.attendees a.join {
+  width: 111px;
+  padding: 3px 3px;
+  color: #CE1E47;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+/* 11.MAIN */
+
+.one-col > div,
+.three-cols > div {
+  width: 96%;
+  margin: 10px 0 0 2%;
+}
+
+.two-cols > div,
+.four-cols > div  {
+  width: 47%;
+  margin: 10px 0 0 2%;
+  float: left;
+}
+
+/* 12.COMPLIMENTARY */
+
+/* 13.CONTENTINFO */
+
+footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid #223035;
+}
+
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */

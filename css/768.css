@@ -1,0 +1,303 @@
+/* 768
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+/* 2.HEADINGS */
+/* 3.TYPOGRAPHY */
+
+a.button {
+  background: #CE1E47;
+  background: -moz-linear-gradient(top, rgb(226,50,91), rgb(206,30,71) 50%, rgb(186,10,51));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(226,50,91)), to(rgb(186,10,51)));
+  background: -webkit-linear-gradient(top, rgb(226,50,91) rgb(186,10,51));
+  background: -o-linear-gradient(top, rgb(226,50,91),  rgb(186,10,51));
+  background: linear-gradient(top, rgb(226,50,91),  rgb(186,10,51));
+  -moz-box-shadow: 1px 1px 8px #223035;
+  -webkit-box-shadow: 1px 1px 8px #223035;
+  box-shadow: 1px 1px 8px #223035;
+  border: 2px solid rgb(206,30,71);
+  border-radius: 10px;
+}
+
+a.button:hover {
+  background: #FF5079;
+  background: -moz-linear-gradient(top, rgb(255,80,121), rgb(186,10,51));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255,80,121)), to(rgb(186,10,51)));
+  background: -webkit-linear-gradient(top, rgb(255,80,121) rgb(186,10,51));
+  background: -o-linear-gradient(top, rgb(255,80,121),  rgb(186,10,51));
+  background: linear-gradient(top, rgb(255,80,121),  rgb(186,10,51));
+  -moz-box-shadow: 1px 1px 8px #223035;
+  -webkit-box-shadow: 1px 1px 8px #223035;
+  box-shadow: 1px 1px 8px #223035;
+  border: 2px solid rgb(206,30,71);
+}
+
+a.button:active {
+  -moz-box-shadow: 1px 1px 3px #223035;
+  -webkit-box-shadow: 1px 1px 3px #223035;
+  box-shadow: 1px 1px 3px #223035;
+}
+
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+
+.logo {
+  width: 260px;
+  height: 176px;
+  float: left;
+  background: url(../img/logo.png) no-repeat top left;
+}
+
+.ug-info {
+  width: 60%;
+  float: left;
+  font-size: 1.25em;
+  text-align: left;
+}
+
+.triangle-border {
+  position: relative;
+  padding: 10px;
+  margin: 1em 0 1em;
+  border: 5px solid #e1e1e1;
+  color: #223035;
+  background: #fff;
+}
+
+.triangle-border.left {
+  margin-left: 30px;
+}
+
+.triangle-border:before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+}
+
+.triangle-border:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+}
+
+.triangle-border.left:before {
+  top: 10px;
+  bottom: auto;
+  left: -25px;
+  border-width: 25px 25px 25px 0;
+  border-color: transparent #e1e1e1;
+}
+
+.triangle-border.left:after {
+  top: 17px;
+  bottom: auto;
+  left: -17px;
+  border-width: 18px 18px 18px 0;
+  border-color: transparent #fff;
+}
+
+/* 9.NAVIGATION */
+
+nav {
+  margin: 0 0 20px 0;
+}
+
+nav ul {
+  width: 100%;
+  display: block;
+  list-style: none;
+  background: url(../img/bg-nav.gif) repeat-x left center;
+}
+
+nav li {
+  float: left;
+  display: inline;
+  margin-bottom: 5px;
+  padding: 0;
+  background: none;
+}
+
+nav li a:link,
+nav li a:visited {
+  display: inline;
+  padding: 5px 10px;
+  margin-right: 5px;
+  background: #f9f9f9;
+  border-left: 1px solid #1ea0ce;
+  border-right: 1px solid #1ea0ce;
+  color: #1ea0ce;
+  font-size: 1.15em;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+nav li a:hover {
+  background: rgb(30,160,206);
+  color: #fff;
+  box-shadow: 0px 0px 5px #555;
+  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
+}
+
+nav li a.active {
+  background: rgb(30,160,206);
+  color: #fff;
+  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
+}
+
+/* 10.CONTENT */
+
+/* --- Reject.JS Final Header --- */
+
+.rejectjs header hgroup {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.rejectjs header h2 {
+  margin-top: 35px;
+}
+
+.reject-logo {
+  height: 245px;
+  width: 247px;
+  margin: 0 20px;
+  background: url(../img/logo-rejectjs.png) no-repeat top left;
+  display: block;
+  float: left;
+}
+
+.rejectjs h1 img {
+  margin: 20px auto 0;
+}
+
+/* --- END Final Header --- */
+
+.teaser a.button {
+  position: absolute;
+  width: 30%;
+  top: 70%;
+  left: 47%;
+  font-size: 1.5em;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-shadow: -1px -1px 0px #9C0015, 1px 1px 0px #FF6479;
+}
+
+.one-col > div {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.two-cols > div {
+  width: 47%;
+  margin: 10px 0 0 2%;
+}
+
+.three-cols > div {
+  width: 30%;
+  margin: 10px 0 0 2%;
+  float: left;
+}
+
+.four-cols > div {
+  width: 22.25%;
+  margin: 10px 0 0 2%;
+}
+
+.speaker {
+  float: left;
+  padding: 10px;
+  border: 10px solid #fff;
+  background: #e1e1e1;
+}
+
+.empty {
+  border: 5px dashed rgba(255,255,255,0.7);
+  color: #888;
+}
+
+.empty h3, .empty h5 {
+  color: #888;
+}
+
+.promo p {
+  width: 75%;
+}
+
+.speaker:last-child {
+  margin-right: 0;
+}
+
+/* --- Speakers --- */
+
+/* --- END Speakers --- */
+
+.schedule ul {
+  float: left;
+  list-style: none;
+  display: table;
+}
+
+.schedule ul li {
+  display: table-cell;
+  padding: 0 10px 0 0;
+}
+
+.schedule ul ul {
+  float: none;
+  width: 100%;
+}
+
+/* 12.COMPLIMENTARY */
+
+
+
+/* 13.CONTENTINFO */
+
+footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid #223035;
+  background: url(../img/shadow.png) no-repeat top center;
+}
+
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */

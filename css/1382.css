@@ -1,0 +1,116 @@
+/* 1382
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+
+body {
+  max-width: 1140px;
+}
+
+/* 2.HEADINGS */
+/* 3.TYPOGRAPHY */
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+/* 9.NAVIGATION */
+/* 10.CONTENT */
+
+/* --- RejectJS Teaser Styles --- */
+
+.teaser {
+  position: relative;
+  margin-bottom: -5px;
+}
+
+.teaser-text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.teaser-text h1,
+.teaser-text h2,
+.teaser-text h3,
+.teaser-text h4 {
+  color: #fff;
+  text-align: center;
+  text-shadow: none;
+}
+
+.teaser-text h1 {
+  margin-bottom: 0;
+  margin-top: 22%;
+  font-size: 4.2em;
+  text-shadow: 2px 2px 0 #223035;
+}
+
+.teaser-text h2 {
+  font-size: 1.6em;
+  font-weight: normal;
+}
+
+.teaser-text h3 {
+  margin-top: 15%;
+  margin-bottom: 0;
+  font-size: 3.4em;
+}
+
+.teaser-text h4 {
+  font-size: 1.4em;
+  font-weight: normal;
+}
+
+.teaser-text hgroup {
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.teaser-text aside {
+  width: 55%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+}
+
+/* --- END Teaser Styles --- */
+
+/* 11.MAIN */
+/* 12.COMPLIMENTARY */
+/* 13.CONTENTINFO */
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */

@@ -147,8 +147,11 @@ h3 {
 
 h4 {
   margin-bottom : 1.25em;
-  font-size : 1.25em;
+  font-size : 1em;
   line-height : 1.25;
+  text-align:center;
+  opacity: 0.6;
+  text-shadow: 0 2px 0 white;
 }
 
 h5 {

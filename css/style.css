@@ -102,7 +102,7 @@ padding : 0; }
 
 html {
 overflow-y : scroll;
-background : url(../img/bg-body.jpg)repeat top left; }
+background: url(../img/linen.jpg) #eeeeee 50% 0%; }
 
 body {
 margin : 0 auto;
@@ -120,7 +120,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1ea0ce;
+  color: #FF1F18;
   font-family : 'Droid Sans', sans-serif;
   font-weight: 700;
   font-size: 50%;
@@ -266,12 +266,12 @@ font-size : 0.85em;}
 a,
 a:visited {
 outline : none;
-color : #ce1e47;
+color : #BD131C;
 text-decoration : none; }
 
 a:hover {
 outline : none;
-color : #223035;
+color : #BD131C;
 text-decoration : underline; }
 
 a:active,

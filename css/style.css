@@ -102,7 +102,7 @@ padding : 0; }
 
 html {
 overflow-y : scroll;
-background : url(../img/bg-body.jpg)repeat top left; }
+background: url(../img/linen.jpg) #eeeeee 50% 0%; }
 
 body {
 margin : 0 auto;

@@ -92,11 +92,14 @@ border-spacing : 0; }
 
 hr {
 display : block;
-height : 1px;
+height : 0px;
 border : 0;
-border-top : 1px solid rgb(204,204,204);
 margin : 1em 0;
-padding : 0; }
+padding : 0; 
+  border-top:1px solid  rgb(204,204,204); 
+    border-bottom:1px solid #FFFFFF;
+opacity:0.7;
+}
 
 /* 1.ROOT */
 
@@ -110,7 +113,8 @@ padding : 24px 0;
 width : 90% /* 252px */;
 font : 75%/1.4 'Droid Sans',sans-serif;
 color : #223035;
-background-color : transparent; }
+background-color : transparent;
+text-shadow: 0 1px 0 white; }
 
 /* 2.HEADINGS */
 
@@ -722,7 +726,6 @@ article {
 footer {
   margin-top: 20px;
   padding: 20px 0;
-  border-top: 1px solid #223035;
   background: none;
 }
 

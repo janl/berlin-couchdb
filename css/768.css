@@ -220,18 +220,18 @@ nav li a.active {
 }
 
 .one-col > div {
-  width: 96%;
-  margin: 0 auto;
+  width: 95%;
+  margin: 10px 0 0 10px;
 }
 
 .two-cols > div {
   width: 47%;
-  margin: 10px 0 0 2%;
+  margin: 10px 0 0 10px;
 }
 
 .three-cols > div {
-  width: 30%;
-  margin: 10px 0 0 2%;
+  width: 31%;
+  margin: 10px 0 0 10px;
   float: left;
 }
 
